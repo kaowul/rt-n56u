@@ -62,6 +62,10 @@ endif
 ifdef CONFIG_MT76X3_AP
 	$(ROMFSINST) /etc_ro/Wireless/MT7603E_EEPROM.bin
 endif
+ifdef CONFIG_MT7615_AP
+	$(ROMFSINST) /etc_ro/Wireless/MT7615E_EEPROM.bin
+endif
+
 
 romfs.post::
 	[ -d $(IMAGEDIR) ] || mkdir -p $(IMAGEDIR)
