@@ -10,7 +10,7 @@
 #define BOARD_FLASH_TIME	120
 #define BOARD_GPIO_BTN_RESET	3
 #undef BOARD_GPIO_BTN_WPS
-#define BOARD_GPIO_LED_ALL	15
+#undef BOARD_GPIO_LED_ALL
 #define BOARD_GPIO_LED_WIFI	14
 #undef BOARD_GPIO_LED_SW2G		/* soft led */
 #undef BOARD_GPIO_LED_SW5G		/* soft led */
